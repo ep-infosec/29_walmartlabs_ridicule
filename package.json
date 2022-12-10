@@ -1,0 +1,33 @@
+{
+  "name": "ridicule",
+  "version": "1.0.0",
+  "main": "index",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "cookie": "^0.1.2",
+    "escape-regexp": "0.0.1",
+    "handlebars": "2.x.x",
+    "joi": "^4.6.1",
+    "lodash.defaults": "^2.4.1",
+    "lodash.foreach": "^2.4.1",
+    "lodash.isfunction": "^2.4.1",
+    "supports-color": "^0.2.0"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "mocks"
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "hapi": "^5.1.0",
+    "istanbul": "^0.2.13",
+    "mocha": "^1.20.1",
+    "sinon": "^1.10.2"
+  },
+  "scripts": {
+    "test": "make ist"
+  }
+}
